@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name" translatable="false">Priv Facebook</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="native_ads_id" translatable="false">ca-app-pub-6621721295018744/4294438717</string>
+    <string name="home_url" translatable="false">https://m.facebook.com/</string>
+    <string name="user_agent" translatable="false">Mozilla/5.0 (BB10; Kbd) AppleWebKit/537.10+ (KHTML, like Gecko) Version/10.1.0.4633 Mobile Safari/537.10+</string>
+    <string name="user_agent_data_saving" translatable="false">Opera/10.61 (J2ME/MIDP; Opera Mini/5.1.21219/19.999; en-US; rv:1.9.3a5) WebKit/534.5 Presto/2.6.30</string>
+    <string name="exit">Exit</string>
+    <string name="cancel">Cancel</string>
+    <string name="title_exit">Sure to exit Priv Facebook?</string>
+    <string name="data_saving">Data saving</string>
+    <string name="enable_this_to_help_you_save_data_and_browse_faster">Enable this to help you save data and browse faster</string>
+    <string name="patterns_do_not_match">Patterns do not match</string>
+    <string name="set_a_new_password">Set a new password</string>
+    <string name="enter_password_again">Enter password again</string>
+    <string name="enter_old_password">Enter old password</string>
+    <string name="reset">Reset</string>
+    <string name="news_feed">News feed</string>
+    <string name="message">Message</string>
+    <string name="notification">Notification</string>
+    <string name="search">Search</string>
+    <string name="settings">Settings</string>
+    <string name="change_password">Change password</string>
+    <string name="rate_feedback"><![CDATA[Rate & Feedback]]></string>
+    <string name="version">Version</string>
+</resources>

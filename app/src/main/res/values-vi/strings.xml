@@ -1,0 +1,22 @@
+<resources>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="exit">Thoát</string>
+    <string name="cancel">Hủy bỏ</string>
+    <string name="title_exit">Thoát khỏi Priv Facebook?</string>
+    <string name="data_saving">Tiết kiệm dữ liệu</string>
+    <string name="enable_this_to_help_you_save_data_and_browse_faster">Lựa chọn giúp bạn tiết kiệm dữ liệu mạng và duyệt Facebook nhanh hơn</string>
+    <string name="patterns_do_not_match">Mật khẩu không đúng</string>
+    <string name="set_a_new_password">Tạo mật khẩu mới</string>
+    <string name="enter_password_again">Nhập lại mật khẩu</string>
+    <string name="enter_old_password">Nhập mật khẩu cũ</string>
+    <string name="reset">Tạo lại</string>
+    <string name="news_feed">Bảng tin</string>
+    <string name="message">Tin nhắn</string>
+    <string name="notification">Thông báo</string>
+    <string name="search">Tìm kiếm</string>
+    <string name="settings">Cài đặt</string>
+    <string name="change_password">Đổi mật khẩu</string>
+    <string name="rate_feedback"><![CDATA[Đánh giá]]></string>
+    <string name="version">Phiên bản</string>
+</resources>

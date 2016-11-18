@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_unlock"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="org.truongpq.frivfacebook.lock.UnlockActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/lock_view">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/app_name"
+            android:textColor="@android:color/white"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <com.google.android.gms.ads.NativeExpressAdView
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            ads:adSize="350x80"
+            ads:adUnitId="@string/native_ads_id" />
+    </RelativeLayout>
+
+    <com.takwolf.android.lock9.Lock9View
+        android:id="@+id/lock_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_margin="18dp"
+        android:visibility="visible"
+        app:lock9_autoLink="true"
+        app:lock9_enableVibrate="true"
+        app:lock9_lineColor="#FFFFFF"
+        app:lock9_lineWidth="4dp"
+        app:lock9_nodeAreaExpand="24dp"
+        app:lock9_nodeOnAnim="@anim/node_on_2"
+        app:lock9_nodeOnSrc="@drawable/ic_circle"
+        app:lock9_nodeSize="16dp"
+        app:lock9_nodeSrc="@drawable/ic_circle"
+        app:lock9_vibrateTime="20" />
+</RelativeLayout>

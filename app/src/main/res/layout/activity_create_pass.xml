@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_create_pass"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="org.truongpq.frivfacebook.lock.CreatePassActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/frame_lock">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/app_name"
+            android:textColor="@android:color/white"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_step"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/set_a_new_password"
+            android:textColor="@android:color/white" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/frame_lock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <com.takwolf.android.lock9.Lock9View
+            android:id="@+id/lock_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="18dp"
+            android:visibility="visible"
+            app:lock9_autoLink="true"
+            app:lock9_enableVibrate="true"
+            app:lock9_lineColor="#FFFFFF"
+            app:lock9_lineWidth="4dp"
+            app:lock9_nodeAreaExpand="24dp"
+            app:lock9_nodeOnAnim="@anim/node_on_2"
+            app:lock9_nodeOnSrc="@drawable/ic_circle"
+            app:lock9_nodeSize="16dp"
+            app:lock9_nodeSrc="@drawable/ic_circle"
+            app:lock9_vibrateTime="20" />
+
+        <com.takwolf.android.lock9.Lock9View
+            android:id="@+id/lock_view_again"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="18dp"
+            android:visibility="gone"
+            app:lock9_autoLink="true"
+            app:lock9_enableVibrate="true"
+            app:lock9_lineColor="#FFFFFF"
+            app:lock9_lineWidth="4dp"
+            app:lock9_nodeAreaExpand="24dp"
+            app:lock9_nodeOnAnim="@anim/node_on_2"
+            app:lock9_nodeOnSrc="@drawable/ic_circle"
+            app:lock9_nodeSize="16dp"
+            app:lock9_nodeSrc="@drawable/ic_circle"
+            app:lock9_vibrateTime="20" />
+    </FrameLayout>
+</RelativeLayout>
